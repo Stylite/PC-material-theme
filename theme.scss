@@ -1,0 +1,140 @@
+
+/* @powercordCompile */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+:root {
+  --bgcolor: #282828;
+}
+/* main app */
+.pc-container {
+  background-color: var(--bgcolor);
+}
+.app {
+  background-color: var(--bgcolor);
+}
+.pc-content.pc-firefoxFixScrollFlex {
+  background-color: var(--bgcolor);
+}
+.pc-activity {
+  background-color: var(--bgcolor);
+}
+.pc-containerDefault {
+  background-color: var(--bgcolor);
+}
+.pc-guilds.scroller {
+  background-color: var(--bgcolor);
+}
+.pc-messagesWrapper {
+  background-color: var(--bgcolor);
+}
+.pc-pickerButtons {
+  background-color: var(--bgcolor);
+}
+.pc-guildIcon {
+  background-color: var(--bgcolor);
+}
+.pc-popouts {
+  background-color: var(--bgcolor);
+}
+.pc-inner {
+  background-color: var(--bgcolor);
+}
+.pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller {
+  background-color: var(--bgcolor);
+}
+.pc-channelTextArea {
+  background-color: var(--bgcolor);
+}
+.pc-chat {
+  background-color: var(--bgcolor);
+}
+.pc-textArea {
+  background-color: var(--bgcolor);
+}
+.pc-scrollbarGhostHairline {
+  background-color: var(--bgcolor);
+}
+.pc-scrollbarGhostHairline.pc-scrollbar {
+  background-color: var(--bgcolor);
+}
+.pc-header.pc-flex.pc-alignCenter {
+  background-color: var(--bgcolor);
+}
+.pc-textArea {
+  background-color: var(--bgcolor);
+}
+.pc-header {
+  background-color: var(--bgcolor);
+}
+.pc-body {
+  background-color: var(--bgcolor);
+}
+.pc-popouts {
+  background-color: var(--bgcolor);
+}
+/* Title bar */
+.pc-title {
+  background-color: var(--bgcolor);
+}
+/* Header bar */
+.pc-headerBar {
+  background-color: var(--bgcolor);
+}
+.pc-tabBarContainer {
+  background-color: var(--bgcolor);
+}
+/* Member list */
+.pc-members {
+  background-color: var(--bgcolor);
+}
+/* Member group */
+.pc-membersGroup {
+  background-color: var(--bgcolor);
+}
+
+/* Content */
+.pc-content {
+  background-color: var(--bgcolor);
+}
+
+.pc-titleWrapper {
+  background-color: var(--bgcolor);
+}
+
+.pc-scrollerFade {
+  background-color: var(--bgcolor);
+}
+
+.pc-flex {
+  background-color: var(--bgcolor);
+}
+.pc-firefoxFixScrollFlex {
+  background-color: var(--bgcolor);
+}
+.pc-headerBarDrag {
+  background-color: var(--bgcolor);
+}
+// test
+.pc-scroller.pc-firefoxFixScrollFlex.pc-members {
+  background-color: var(--bgcolor);
+}
+.pc-dividerContent {
+  background-color: var(--bgcolor);
+}
+.pc-messages.scroller {
+  background-color: var(--bgcolor);
+}
+.pc-flex.pc-flex.pc-headerBar.pc-title {
+  background-color: var(--bgcolor);
+}
+.pc-typing.pc-base {
+  background-color: var(--bgcolor);
+}
+.pc-iconButton.pc-button.pc-button {
+  background-color: var(--bgcolor);
+}
+/* Text */
+.pc-markup {
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
