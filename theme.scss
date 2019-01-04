@@ -1,6 +1,6 @@
 ﻿/* @powercordCompile */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 @import 'components/profile-badges';
 @import 'components/box-shadow';
 
@@ -10,7 +10,7 @@
 
 /* main app */
 
-.pc-container, .app, .pc-content.pc-firefoxFixScrollFlex, .pc-activity, .pc-containerDefault, .pc-guilds.scroller,
+.app, .pc-scroller, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete,
 .pc-messagesWrapper, .pc-pickerButtons, .pc-guildIcon, .pc-popouts, .pc-inner, .pc-channelTextArea, .pc-chat,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
 .pc-scrollbarGhostHairline.pc-scrollbar, .pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
@@ -18,7 +18,9 @@
 }
 
 /* Title bar */
-
+.pc-inner.pc-flex.pc-innerNoAutocomplete {
+  background-color: var(--bgcolor);
+}
 .pc-title {
   background-color: var(--bgcolor);
 }
