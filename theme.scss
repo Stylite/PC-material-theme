@@ -37,6 +37,16 @@
   border: none
 }
 
+.pc-actionIcon, .pc-channelIcon, .pc-iconDefault, .pc-icon, .pc-foreground, .pc-background {
+  opacity: 1;
+  color: white;
+  fill: white;
+}
+
+.pc-nameDefault {
+  color: white;
+}
+
 /* Title bar */
 
 .pc-inner.pc-flex.pc-innerNoAutocomplete {
