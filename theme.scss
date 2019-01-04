@@ -45,7 +45,7 @@
 }
 
 .pc-userInfoSectionHeader, .pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault,
-.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip {
+.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip, .pc-bodyLink, .pc-state  {
   color: white !important;
 }
 
@@ -55,6 +55,10 @@
 
 .pc-tip {
   opacity: 1;
+}
+
+.pc-barInner {
+  background-color: white;
 }
 
 /* Title bar */
