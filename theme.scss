@@ -44,8 +44,17 @@
   fill: white !important;
 }
 
-.pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault {
+.pc-userInfoSectionHeader, .pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault,
+.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip {
   color: white !important;
+}
+
+.pc-membersGroup {
+  text-transform: Capitalize !important;
+}
+
+.pc-tip {
+  opacity: 1;
 }
 
 /* Title bar */
