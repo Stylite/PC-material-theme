@@ -10,10 +10,13 @@
 
 /* Main app */
 
-.app, pc-appMount, .pc-scroller, .pc-resultsGroup, .pc-option, .pc-option.pc-searchOption::after, .pc-search, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow, .pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body, .pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer,
-.pc-messagesWrapper, .pc-pickerButtons, .pc-guildIcon, .pc-popouts, .pc-inner, .pc-channelTextArea, .pc-chat, .pc-messagesPopout.scroller,
+.app, pc-appMount, .pc-scroller, .pc-resultsGroup, .pc-option, .pc-option.pc-searchOption::after, .pc-search, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow,
+.pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body,
+.pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer, .pc-messagesWrapper, .pc-pickerButtons,
+.pc-guildIcon, .pc-popouts, .pc-channelTextArea, .pc-chat, .pc-messagesPopout.scroller,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
-.pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer, .pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
+.pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer,
+.pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
   background-color: var(--bgcolor);
 }
 
