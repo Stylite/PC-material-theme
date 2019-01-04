@@ -10,7 +10,7 @@
 
 /* main app */
 
-.app, .pc-scroller, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body, .pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer,
+.app, .pc-scroller, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow, .pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body, .pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer,
 .pc-messagesWrapper, .pc-pickerButtons, .pc-guildIcon, .pc-popouts, .pc-inner, .pc-channelTextArea, .pc-chat, .pc-messagesPopout.scroller,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
 .pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer, .pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
@@ -20,6 +20,29 @@
 /* Title bar */
 
 .pc-inner.pc-flex.pc-innerNoAutocomplete {
+  background-color: var(--bgcolor);
+}
+.pc-autocompleteInner.pc-autocompleteRowVertical.pcautocompleteRow {
+  background-color: var(--bgcolor)
+}
+.pc-selectable {
+  background-color: var(--bgcolor)
+}
+.pc-inner.pc-flex.pc-innerAutocomplete {
+  background-color: var(--bgcolor)
+}
+.pc-uploadModal {
+  background-color: var(--bgcolor)
+}
+.pc-uploadModal.pc-footer.button {
+  background-color: var(--bgcolor);
+  color: whitesmoke;
+}
+.pc-uploadModal.pc-footer.button.button-primary {
+  background-color: var(--bgcolor);
+  color: whitesmoke;
+}
+.search-bar.search-bar-light {
   background-color: var(--bgcolor);
 }
 .pc-title {
