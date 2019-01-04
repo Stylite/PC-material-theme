@@ -52,9 +52,13 @@
   background-color: var(--bgcolor);
 }
 
+.pc-content {
+  background-color: var(--bgcolor) !important;
+}
+
 .pc-contentSelectedText {
   border-left: 4px solid white;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 /* Text */
