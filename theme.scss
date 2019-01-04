@@ -1,6 +1,7 @@
 ﻿/* @powercordCompile */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 @import 'components/profile-badges';
 @import 'components/box-shadow';
 
@@ -138,4 +139,20 @@
 .pc-markup {
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
+}
+
+/* Hides blocked messages */
+
+.pc-messageGroupBlocked {
+  display: none;
+}
+
+/* Invite background fill */
+
+.pc-wrapper {
+  background: var(--bgcolor) !important;
+}
+
+.hljs {
+  font-family: 'Fira Code';
 }
