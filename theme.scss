@@ -51,7 +51,7 @@
   color: white !important;
 }
 
-.pc-membersGroup {
+.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup {
   text-transform: Capitalize !important;
 }
 
@@ -59,7 +59,15 @@
   opacity: 1;
 }
 
-.pc-barInner {
+.pc-badge {
+  background-color: var(--bg-secondary);
+}
+
+.pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-wrapper .pc-unread, .pc-barInner {
   background-color: white;
 }
 
