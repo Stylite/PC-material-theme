@@ -1,0 +1,11 @@
+.search-bar.search-bar-light, .pc-title, .pc-inner.pc-flex.pc-innerNoAutocomplete,
+.pc-autocompleteInner.pc-autocompleteRowVertical.pc-autocompleteRow,
+.pc-selectable, .pc-inner.pc-flex.pc-innerAutocomplete, .pc-uploadModal {
+  background-color: var(--bg-primary)
+}
+
+.pc-uploadModal.pc-footer.button,.uploadModal-2ifh8j.footer-3mqk7D.button-primary,
+.pc-flex.pc-footer.pc-button.pc-grow.pc-contents {
+  background-color: var(--bg-primary);
+  color: whitesmoke;
+}

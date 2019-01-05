@@ -1,0 +1,7 @@
+.pc-member.popout-open .pc-content .pc-memberInner .pc-activity, .pc-member.popout-open .pc-content,
+.pc-member:hover .pc-content .pc-memberInner .pc-activity, .pc-contentImagesUserPopout,
+.pc-contentGameImageUserPopout.pc-content, .pc-headerPlaying .pc-activity, .pc-userPopout .pc-header,
+.pc-userPopout .pc-headerTop, .pc-userPopout .pc-body, .pc-contentGameImageUserPopout .pc-content,
+.pc-rolesList {
+  background-color: var(--bg-secondary) !important;
+}

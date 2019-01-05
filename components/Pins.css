@@ -1,0 +1,19 @@
+.pc-themedPopout .pc-header .pc-title, .pc-themedPopout .pc-header.pc-header, .pc-messagesPopout.scroller,
+.pc-emptyPlaceholder .pc-body, .pc-footer {
+  background-color: var(--bg-secondary) !important;
+  border-radius: 0;
+}
+
+.pc-messagesPopoutWrap {
+  border-color: var(--bg-secondary) !important;
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-messageGroupWrapper {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--bg-primary) !important;
+}
+
+.pc-actionButtons {
+  background-color: var(--bg-primary) !important;
+}

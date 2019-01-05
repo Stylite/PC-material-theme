@@ -1,0 +1,18 @@
+.pc-markup {
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pc-userInfoSectionHeader, .pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault,
+.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip, .pc-bodyLink, .pc-state, .pc-friendsOnline, .pc-item, .pc-label, .pc-h1,
+.pc-welcomeMessage p, .pc-activityName {
+  color: white !important;
+}
+
+.pc-invite .pc-label {
+  color: #7289DA !important;
+}
+
+.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup, .pc-nameCollapsed, .pc-nameHoveredCollapsed {
+  text-transform: Capitalize !important;
+}

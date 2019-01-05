@@ -1,0 +1,14 @@
+.pc-titleWrapper, .pc-scrollerFade, .pc-flex, .pc-firefoxFixScrollFlex, .pc-headerBarDrag,.pc-messages.scroller,
+.pc-scroller.pc-firefoxFixScrollFlex.pc-members, .pc-dividerContent, .pc-dividerContent, .pc-typing.pc-base,
+.pc-flex.pc-flex.pc-headerBar.pc-title, .pc-flex.pc-flex.pc-headerBar.pc-title, .pc-iconButton.pc-button.pc-button {
+  background-color: var(--bg-primary);
+}
+
+.flex-vertical {
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-contentSelectedText {
+  border-left: 4px solid white;
+  border-radius: 0;
+}
