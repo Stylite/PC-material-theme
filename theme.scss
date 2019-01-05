@@ -121,7 +121,7 @@
   background-color: var(--bg-primary);
 }
 
-.pc-content {
+.flex-vertical {
   background-color: var(--bg-primary) !important;
 }
 
@@ -139,7 +139,7 @@
 
 .pc-userInfoSectionHeader, .pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault,
 .pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip, .pc-bodyLink, .pc-state, .pc-friendsOnline, .pc-item, .pc-label, .pc-h1,
-.pc-welcomeMessage p {
+.pc-welcomeMessage p, .pc-activityName {
   color: white !important;
 }
 
@@ -197,6 +197,14 @@
 
 .pc-actionButtons {
   background-color: #282828 !important;
+}
+
+/* User Popouts */
+
+.pc-contentGameImageUserPopout.pc-content, .pc-headerPlaying .pc-activity, .pc-userPopout .pc-header,
+.pc-userPopout .pc-headerTop, .pc-userPopout .pc-body, .pc-contentGameImageUserPopout .pc-content,
+.pc-rolesList {
+  background-color: #1a1a1a !important;
 }
 
 /* SVG Recolors */
