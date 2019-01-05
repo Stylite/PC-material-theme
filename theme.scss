@@ -22,12 +22,16 @@
   background-color: var(--bg-primary);
 }
 
+.pc-item, .pc-badge {
+  background-color: var(--bg-secondary);
+}
+
 .pc-scrollerWrap .scroller::-webkit-scrollbar-thumb, .pc-scroller::-webkit-scrollbar-thumb {
   background-color: white !important;
   border-radius: 0 !important;
 }
 
-.pc-scrollerWrap .scroller::-webkit-scrollbar-track-piece {
+ .pc-scrollerWrap .scroller::-webkit-scrollbar-track-piece {
   visibility: hidden !important;
 }
 
@@ -47,7 +51,7 @@
 }
 
 .pc-userInfoSectionHeader, .pc-wrapper .pc-unread, .pc-activityText, .pc-membersGroup, .pc-mobileIndicator, .pc-nameDefault,
-.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip, .pc-bodyLink, .pc-state, .pc-friendsOnline  {
+.pc-nameNormal, .pc-textRow, .pc-bodyTitle, .pc-tip, .pc-bodyLink, .pc-state, .pc-friendsOnline, .pc-item, .pc-label {
   color: white !important;
 }
 
@@ -59,9 +63,6 @@
   opacity: 1;
 }
 
-.pc-badge {
-  background-color: var(--bg-secondary);
-}
 
 .tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
   background-color: var(--bg-secondary) !important;
@@ -75,7 +76,7 @@
   border-top-color: var(--bg-secondary) !important;
 }
 
-.tooltip.tooltip-black.tooltip-bottom:after {
+.pc-separator, .tooltip.tooltip-black.tooltip-bottom:after {
   border-bottom-color: var(--bg-secondary) !important;
 }
 
