@@ -13,7 +13,7 @@
 /* Main app */
 
 .app, .pc-appMount, .pc-scroller, .pc-resultsGroup, .pc-option, .pc-option.pc-searchOption::after, .pc-search, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow,
-.pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-activity, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body,
+.pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body,
 .pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer, .pc-messagesWrapper, .pc-pickerButtons,
 .pc-guildIcon, .pc-popouts, .pc-channelTextArea, .pc-chat, .pc-messagesPopout.scroller,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
@@ -22,11 +22,15 @@
   background-color: var(--bg-primary);
 }
 
+.pc-menu .pc-item:hover {
+  background-color: var(--bg-primary) !important;
+}
+
 .pc-item, .pc-badge {
   background-color: var(--bg-secondary);
 }
 
-.tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
+.pc-members .pc-member .pc-content:hover, .tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -124,10 +128,9 @@
 
 /* Content */
 
-.pc-titleWrapper, .pc-scrollerFade, .pc-flex, .pc-firefoxFixScrollFlex, .pc-headerBarDrag, .pc-content,
-.pc-scroller.pc-firefoxFixScrollFlex.pc-members, .pc-dividerContent, .pc-dividerContent, .pc-messages.scroller,
-.pc-flex.pc-flex.pc-headerBar.pc-title, .pc-flex.pc-flex.pc-headerBar.pc-title, .pc-typing.pc-base,
-.pc-iconButton.pc-button.pc-button {
+.pc-titleWrapper, .pc-scrollerFade, .pc-flex, .pc-firefoxFixScrollFlex, .pc-headerBarDrag,.pc-messages.scroller,
+.pc-scroller.pc-firefoxFixScrollFlex.pc-members, .pc-dividerContent, .pc-dividerContent, .pc-typing.pc-base,
+.pc-flex.pc-flex.pc-headerBar.pc-title, .pc-flex.pc-flex.pc-headerBar.pc-title, .pc-iconButton.pc-button.pc-button {
   background-color: var(--bg-primary);
 }
 
