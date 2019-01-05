@@ -147,7 +147,7 @@
   color: #7289DA !important;
 }
 
-.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup, .pc-nameCollapsed {
+.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup, .pc-nameCollapsed, .pc-nameHoveredCollapsed {
   text-transform: Capitalize !important;
 }
 
@@ -193,6 +193,10 @@
 .pc-messageGroupWrapper {
   background-color: #282828 !important;
   border-color: #282828 !important;
+}
+
+.pc-actionButtons {
+  background-color: #282828 !important;
 }
 
 /* SVG Recolors */
