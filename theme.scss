@@ -168,16 +168,8 @@
 
 /* Code block stuff*/
 
-.hljs {
+.hljs, .markup-2BOw-j pre, .inline {
   font-family: 'Fira Code';
-  background: var(--bg-secondary) !important;
-}
-
-.markup-2BOw-j pre {
-  border-color: var(--bg-secondary) !important;
-}
-
-.inline {
   background: var(--bg-secondary) !important;
 }
 
