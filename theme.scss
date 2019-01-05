@@ -10,7 +10,7 @@
   --bg-secondary: #1a1a1a;
 }
 
-/* Main app */
+/* Main App */
 
 .app, .pc-appMount, .pc-scroller, .pc-resultsGroup, .pc-option, .pc-option.pc-searchOption::after, .pc-search, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow,
 .pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body,
@@ -81,7 +81,7 @@
   width: 5px;
 }
 
-/* Title bar */
+/* Title Bar */
 
 .search-bar.search-bar-light, .pc-title, .pc-inner.pc-flex.pc-innerNoAutocomplete,
 .pc-autocompleteInner.pc-autocompleteRowVertical.pc-autocompleteRow,
@@ -95,19 +95,19 @@
   color: whitesmoke;
 }
 
-/* Header bar */
+/* Header Bar */
 
 .pc-tabBarContainer, .pc-headerBar {
   background-color: var(--bg-primary);
 }
 
-/* Member list */
+/* Member List */
 
 .pc-members {
   background-color: var(--bg-primary);
 }
 
-/* Member group */
+/* Member Group */
 
 .pc-membersGroup {
   background-color: var(--bg-primary);
@@ -151,13 +151,13 @@
   text-transform: Capitalize !important;
 }
 
-/* Hides blocked messages */
+/* Hides Blocked Messages */
 
 .pc-messageGroupBlocked {
   display: none;
 }
 
-/* Invite background fill */
+/* Invite Background Fill */
 
 .pc-wrapper {
   background: var(--bg-primary) !important;
@@ -170,7 +170,7 @@
   background-color: var(--bg-secondary) !important;
 }
 
-/* Code block stuff*/
+/* Codeblock Stuff*/
 
 .hljs, .markup-2BOw-j pre, .inline {
   font-family: 'Fira Code';
