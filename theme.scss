@@ -15,7 +15,7 @@
 .app, .pc-appMount, .pc-scroller, .pc-resultsGroup, .pc-option, .pc-option.pc-searchOption::after, .pc-search, .pc-spriteItem, .pc-autocompleteInner, .pc-autocompleteRowVertical.pc-autocompleteRow,
 .pc-emojiItem, .pc-selected, .pc-category, .pc-emojiPicker, .pc-guilds.scroller, .pc-content, .pc-flex, .pc-innerNoAutocomplete, .body-3iLsc4.pc-body,
 .pc-popouts.pc-noArrow.pc-noShadow.pc-popout.pc-userPopout.pc-body, .pc-footer, .pc-messagesWrapper, .pc-pickerButtons,
-.pc-guildIcon, .pc-popouts, .pc-channelTextArea, .pc-chat, .pc-messagesPopout.scroller,
+.pc-guildIcon, .pc-popouts, .pc-channelTextArea, .pc-chat,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
 .pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer,
 .pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
@@ -41,10 +41,6 @@
 .pc-scrollerWrap .scroller::-webkit-scrollbar-thumb, .pc-scroller::-webkit-scrollbar-thumb {
   background-color: white !important;
   border-radius: 0 !important;
-}
-
-.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup {
-  text-transform: Capitalize !important;
 }
 
 .pc-scrollerWrap .scroller::-webkit-scrollbar-thumb, .pc-scrollerWrap .scroller::-webkit-scrollbar-track-piece {
@@ -151,6 +147,10 @@
   color: #7289DA !important;
 }
 
+.nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup, .pc-nameCollapsed {
+  text-transform: Capitalize !important;
+}
+
 /* Hides blocked messages */
 
 .pc-messageGroupBlocked {
@@ -175,6 +175,24 @@
 .hljs, .markup-2BOw-j pre, .inline {
   font-family: 'Fira Code';
   background: var(--bg-secondary) !important;
+}
+
+/* Pinned Messages */
+
+.pc-themedPopout .pc-header .pc-title, .pc-themedPopout .pc-header.pc-header, .pc-messagesPopout.scroller,
+.pc-emptyPlaceholder .pc-body, .pc-footer {
+  background-color: var(--bg-secondary) !important;
+  border-radius: 0;
+}
+
+.pc-messagesPopoutWrap {
+  border-color: var(--bg-secondary) !important;
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-messageGroupWrapper {
+  background-color: #282828 !important;
+  border-color: #282828 !important;
 }
 
 /* SVG Recolors */
