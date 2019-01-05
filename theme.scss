@@ -71,8 +71,20 @@
   border-right-color: var(--bg-secondary) !important;
 }
 
+.tooltip.tooltip-black.tooltip-top:after {
+  border-top-color: var(--bg-secondary) !important;
+}
+
+.tooltip.tooltip-black.tooltip-bottom:after {
+  border-bottom-color: var(--bg-secondary) !important;
+}
+
 .pc-wrapper .pc-unread, .pc-barInner {
   background-color: white;
+}
+
+.pc-connectedAccountVerifiedIcon g path[fill*='4f545c'], .pc-verified g path[fill*='4f545c'] {
+  fill: var(--bg-secondary) !important;
 }
 
 /* Title bar */
