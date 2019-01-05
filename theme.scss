@@ -18,7 +18,8 @@
 .pc-guildIcon, .pc-popouts, .pc-channelTextArea, .pc-chat,
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
 .pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer,
-.pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts {
+.pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts, .pc-topSectionSpotify, .pc-topSectionSpotify .pc-headerFill,
+.pc-topSectionPlaying, .pc-topSectionPlaying .pc-headerFill, .pc-topSectionStreaming, .pc-topSectionStreaming .pc-headerFill {
   background-color: var(--bg-primary);
 }
 
@@ -59,7 +60,7 @@
 }
 
 .pc-activityIconForeground, .pc-activityIcon, .pc-actionIcon, .pc-channelIcon, .pc-iconDefault, .pc-icon, .pc-foreground,
-.pc-background, .pc-button {
+.pc-background, .pc-button, .pc-ownerIcon g path {
   opacity: 1;
   color: white;
   fill: white !important;
