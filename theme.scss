@@ -34,8 +34,8 @@
   background-color: var(--bg-secondary) !important;
 }
 
-.pc-wrapper .pc-unread, .pc-barInner {
-  background-color: white;
+.pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
+  background-color: white !important;
 }
 
 .pc-scrollerWrap .scroller::-webkit-scrollbar-thumb, .pc-scroller::-webkit-scrollbar-thumb {
@@ -191,20 +191,22 @@
 }
 
 .pc-messageGroupWrapper {
-  background-color: #282828 !important;
-  border-color: #282828 !important;
+  background-color: var(--bg-primary) !important;
+  border-color: var(--bg-primary) !important;
 }
 
 .pc-actionButtons {
-  background-color: #282828 !important;
+  background-color: var(--bg-primary) !important;
 }
 
 /* User Popouts */
 
+.pc-member.popout-open .pc-content .pc-memberInner .pc-activity, .pc-member.popout-open .pc-content,
+.pc-member:hover .pc-content .pc-memberInner .pc-activity, .pc-contentImagesUserPopout,
 .pc-contentGameImageUserPopout.pc-content, .pc-headerPlaying .pc-activity, .pc-userPopout .pc-header,
 .pc-userPopout .pc-headerTop, .pc-userPopout .pc-body, .pc-contentGameImageUserPopout .pc-content,
 .pc-rolesList {
-  background-color: #1a1a1a !important;
+  background-color: var(--bg-secondary) !important;
 }
 
 /* SVG Recolors */
