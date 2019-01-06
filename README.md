@@ -4,7 +4,7 @@
 
 ## Installation
 
-Copy and paste `theme.css` into `pc-styleManager/theme.css`
+Copy and paste `theme.scss` into `pc-styleManager/theme.scss`
 
 ### Requirements
 * [Powercord](https://github.com/aetheryx/powercord)
