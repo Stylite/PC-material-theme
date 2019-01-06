@@ -1,3 +1,8 @@
 .pc-members {
   background-color: var(--bg-primary);
 }
+
+.pc-channel:hover a, .pc-channel:hover a .pc-name .pc-activity,  .pc-channel.pc-selected a,
+.pc-channel.pc-selected a .pc-name .pc-activity {
+  background-color: var(--bg-secondary) !important;
+}
