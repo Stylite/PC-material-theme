@@ -25,7 +25,9 @@
   background-color: white !important;
 }
 
-.pc-scrollerWrap .scroller::-webkit-scrollbar-thumb, .pc-scroller::-webkit-scrollbar-thumb {
+.scroller-wrap.dark .scroller::-webkit-scrollbar-thumb,
+.pc-scrollerWrap .scroller::-webkit-scrollbar-thumb,
+.pc-scroller::-webkit-scrollbar-thumb {
   background-color: white !important;
   border-radius: 0 !important;
 }
