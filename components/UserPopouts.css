@@ -2,6 +2,10 @@
 .pc-member:hover .pc-content .pc-memberInner .pc-activity, .pc-contentImagesUserPopout,
 .pc-contentGameImageUserPopout.pc-content, .pc-headerPlaying .pc-activity, .pc-userPopout .pc-header,
 .pc-userPopout .pc-headerTop, .pc-userPopout .pc-body, .pc-contentGameImageUserPopout .pc-content,
-.pc-rolesList {
+.pc-rolesList, .pc-contentNoImagesUserPopout.pc-content, .pc-timeBarUserPopout .pc-flex, .pc-role.pc-flex.pc-alignCenter {
   background-color: var(--bg-secondary) !important;
+}
+
+.pc-roleName {
+  color: white;
 }
