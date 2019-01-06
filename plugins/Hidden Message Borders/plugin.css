@@ -1,0 +1,7 @@
+.pc-dividerEnabled {
+  visibility: hidden;
+}
+
+.pc-channelTextArea {
+  border: none !important;
+}
