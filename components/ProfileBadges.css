@@ -1,3 +1,7 @@
+.powercord-badge img {
+  filter: brightness(100) !important;
+}
+
 [class*="profileBadgeHypesquad-"] {
   background-image: url("https://canary.discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg") !important;
 }
