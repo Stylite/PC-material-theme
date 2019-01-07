@@ -17,7 +17,7 @@
   background-color: var(--bg-secondary);
 }
 
-.pc-members .pc-member .pc-content:hover, .tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
+.pc-guildSeparator:after, .pc-members .pc-member .pc-content:hover, .tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
   background-color: var(--bg-secondary) !important;
 }
 
