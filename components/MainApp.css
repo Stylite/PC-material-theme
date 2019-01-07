@@ -5,7 +5,7 @@
 .pc-textArea.pc-textArea.pc-scrollbarGhostHairline.pc-scroller, .pc-textArea, .pc-scrollbarGhostHairline, .pc-body,
 .pc-scrollbarGhostHairline.pc-scrollbar, .quickMessage-2XpSaN.pc-quickMessage, .pc-header.pc-header, .pc-footer.pc-footer,
 .pc-header.pc-flex.pc-alignCenter, .pc-textArea, .pc-header, .pc-popouts, .pc-topSectionSpotify, .pc-topSectionSpotify .pc-headerFill,
-.pc-topSectionPlaying, [class*="pc"] .pc-container, .pc-topSectionPlaying .pc-headerFill, .pc-topSectionStreaming, .pc-topSectionStreaming .pc-headerFill {
+.pc-topSectionPlaying, .pc-topSectionPlaying .pc-headerFill, .pc-topSectionStreaming, .pc-topSectionStreaming .pc-headerFill {
   background-color: var(--bg-primary);
 }
 
