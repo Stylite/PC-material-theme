@@ -1,0 +1,24 @@
+.tab-bar-item, .tab-bar-item.selected, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
+[class*='friends-column-'] {
+  color: white !important;
+}
+
+.pc-headerBar, .friends-table-header, #friends {
+  background-color: var(--bg-primary) !important;
+}
+
+#friends .friends-table .friends-row:hover, .tab-bar-item.selected, .tab-bar-item:hover {
+  background-color: var(--bg-secondary) !important;
+}
+
+.friends-table-header, .friends-table .friends-row+.friends-row {
+  border: none !important;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+  border-color: white;
+}
+
+#friends .friends-table .friends-table-header .friends-column-separator {
+  visibility: hidden !important;
+}
