@@ -4,4 +4,4 @@ This is an example plugin page designed to be used as a template or guide for wh
 
 You can import this plugin by adding the following line to your theme file:
 
-`@import 'plugins/folder-name-here'`
+`@import 'plugins/Example/plugin'`
