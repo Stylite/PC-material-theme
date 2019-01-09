@@ -2,14 +2,19 @@
 
 ## A WIP theme for Powercord
 
-## Installation
-
-Copy and paste `theme.scss` into `pc-styleManager/theme.scss`
-
 ### Requirements
 * [Powercord](https://github.com/aetheryx/powercord)
 * SCSS
 
+### Installation
+* After installing Powercord, clone this repository into `Powercord\src\Powercord\plugins\pc-styleManager\themes`
+
+* Create a file named `theme.scss` in the directory from step one.
+
+* Insert the following line into your newly made file:   
+`@import 'PC-material-theme/theme'`
+ 
+* Save your file and enjoy your new theme.
 ## Contributing
 Pull requests are welcome.
 
