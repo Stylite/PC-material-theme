@@ -7,7 +7,7 @@
 * SCSS
 
 ### Installation
-* After installing Powercord, clone this repository into `Powercord\src\Powercord\plugins\pc-styleManager\themes`
+* Clone this repository into `Powercord\src\Powercord\plugins\pc-styleManager\themes`
 
 * Create a file named `theme.scss` in the directory from step one.
 
