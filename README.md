@@ -11,10 +11,10 @@
 
 * Create a file named `theme.scss` in the directory from step one.
 
-* Insert the following line into your newly made file:   
-`@import 'PC-material-theme/theme'`
+* Insert the following line into your newly made file: `@import 'PC-material-theme/theme'`
  
 * Save your file and enjoy your new theme.
+
 ## Contributing
 Pull requests are welcome.
 
