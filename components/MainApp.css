@@ -9,7 +9,7 @@
   background-color: var(--bg-primary);
 }
 
-.pc-headerFill, .pc-topSectionXbox, .container-2Thooq, .pc-menu .pc-item:hover {
+[class*='topSection'] div .pc-tabBarContainer .pc-tabBar .pc-item, .pc-headerFill, .pc-topSectionXbox, .container-2Thooq, .pc-menu .pc-item:hover {
   background-color: var(--bg-primary) !important;
 }
 

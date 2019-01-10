@@ -1,24 +1,36 @@
-#friends .tab-bar.tab-bar-desktop .tab-bar-item, #friends .tab-bar.tab-bar-desktop .tab-bar-item.selected, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
-[class*='friends-column-'] {
+.pc-friendsRow .pc-friendsColumn, .pc-moreMutualGuildsBtn, .pc-friendsTableHeader .pc-friendsColumn {
   color: white !important;
 }
 
-.pc-headerBar, .friends-table-header, #friends {
+.pc-headerBar, .pc-friendsTableHeader, .pc-container {
   background-color: var(--bg-primary) !important;
 }
 
-#friends .friends-table .friends-row:hover, #friends .tab-bar.tab-bar-desktop .tab-bar-item.selected, #friends .tab-bar.tab-bar-desktop .tab-bar-item:hover {
+.pc-friendsRow:hover {
   background-color: var(--bg-secondary) !important;
 }
 
-.friends-table-header, .friends-table .friends-row+.friends-row {
+.pc-separator {
+  background-color: var(--bg-secondary) !important;
+  width: 2px !important;
+}
+
+.pc-tabBar .pc-itemSelected, .pc-itemDefault:hover {
+  color: var(--bg-secondary) !important;
+}
+
+.pc-itemDefault:hover {
+  background-color: white !important;
+}
+
+.friends-table-header, .friends-table .friends-row+.friends-row, .pc-friendsRow, .pc-friendsTableHeader {
   border: none !important;
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
-  border-color: white;
+.pc-moreMutualGuildsBtn {
+  border-color: white !important;
 }
 
-#friends .friends-table .friends-table-header .friends-column-separator {
+.pc-friendsColumnSeparator  {
   visibility: hidden !important;
 }
