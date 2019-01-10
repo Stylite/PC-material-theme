@@ -1,4 +1,4 @@
-.tab-bar-item, .tab-bar-item.selected, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
+#friends .tab-bar.tab-bar-desktop .tab-bar-item, #friends .tab-bar.tab-bar-desktop .tab-bar-item.selected, #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
 [class*='friends-column-'] {
   color: white !important;
 }
@@ -7,7 +7,7 @@
   background-color: var(--bg-primary) !important;
 }
 
-#friends .friends-table .friends-row:hover, .tab-bar-item.selected, .tab-bar-item:hover {
+#friends .friends-table .friends-row:hover, #friends .tab-bar.tab-bar-desktop .tab-bar-item.selected, #friends .tab-bar.tab-bar-desktop .tab-bar-item:hover {
   background-color: var(--bg-secondary) !important;
 }
 

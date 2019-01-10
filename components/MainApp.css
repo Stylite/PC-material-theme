@@ -9,7 +9,7 @@
   background-color: var(--bg-primary);
 }
 
-.pc-menu .pc-item:hover {
+.pc-headerFill, .pc-topSectionXbox, .container-2Thooq, .pc-menu .pc-item:hover {
   background-color: var(--bg-primary) !important;
 }
 
@@ -17,8 +17,13 @@
   background-color: var(--bg-secondary);
 }
 
-.pc-guildSeparator:after, .pc-badge.pc-fixClipping, .pc-members .pc-member .pc-content:hover, .tooltip-black, .pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper {
+.pc-guildSeparator:after, .pc-badge.pc-fixClipping, .pc-members .pc-member .pc-content:hover, .tooltip-black,
+.pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper, .pc-actionButton, .pc-buttonInvertedPurple {
   background-color: var(--bg-secondary) !important;
+}
+
+.pc-listName, .pc-listDiscriminator, .pc-actionButton, .pc-buttonInvertedPurple {
+  color: white !important;
 }
 
 .pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
@@ -54,8 +59,8 @@
   fill: white !important;
 }
 
-.pc-tip {
-  opacity: 1;
+.pc-listName, .pc-listDiscriminator, .pc-tip {
+  opacity: 1 !important;
 }
 
 .pc-connectedAccountVerifiedIcon g path[fill*='4f545c'], .pc-verified g path[fill*='4f545c'] {
