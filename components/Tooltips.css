@@ -1,0 +1,20 @@
+.pc-tooltip.pc-top.pc-black, .pc-tooltip.pc-bottom.pc-black,
+.pc-tooltip.pc-left.pc-black, .pc-tooltip.pc-right.pc-black {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-tooltip.pc-top.pc-black:after {
+  border-top-color: var(--bg-secondary) !important;
+}
+
+.pc-tooltip.pc-bottom.pc-black:after {
+  border-bottom-color: var(--bg-secondary) !important;
+}
+
+.pc-tooltip.pc-left.pc-black:after {
+  border-left-color: var(--bg-secondary) !important;
+}
+
+.pc-tooltip.pc-right.pc-black:after {
+  border-right-color: var(--bg-secondary) !important;
+}
