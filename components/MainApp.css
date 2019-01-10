@@ -26,7 +26,7 @@
   color: white !important;
 }
 
-.pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
+.pc-wrapper .pc-unread, .pc-barInner {
   background-color: white !important;
 }
 
