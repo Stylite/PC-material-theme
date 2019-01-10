@@ -4,11 +4,12 @@
   background-color: var(--bg-primary) !important;
 }
 
-.pc-option.pc-searchOption::after, .pc-resultsGroup, .pc-resultsGroup .pc-header, .pc-resultsGroup .pc-searchOption {
+.pc-resultsGroup .pc-option, .pc-option.pc-searchOption::after, .pc-resultsGroup, .pc-resultsGroup .pc-header,
+.pc-resultsGroup .pc-searchOption {
   background-color: var(--bg-secondary) !important;
 }
 
-.pc-plusIcon, .pc-searchLearnMore .pc-anchorUnderlineOnHover [name*='LearnMore'] g {
+.pc-nonText, .pc-plusIcon, .pc-searchLearnMore .pc-anchorUnderlineOnHover [name*='LearnMore'] g {
   color: white !important;
 }
 
@@ -29,5 +30,15 @@
 }
 
 .search-bar-icon .icon.visible {
-  opacity: 1;
+  opacity: 1 !important;
+}
+
+.pc-filter {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.pc-answer {
+  color: white !important;
+  font-weight: normal !important;
 }
