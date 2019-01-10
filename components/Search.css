@@ -1,6 +1,6 @@
 .search-results-wrap .search-result .search-result-message.hit, .search-results-wrap .channel-separator .channel-name,
 .search-results-wrap .search-header, .pc-searchFilter, .pc-searchAnswer, .pc-resultsGroup .pc-searchOption.pc-selected
-.pc-option.pc-searchOption.pc-selected::after {
+.pc-option.pc-searchOption.pc-selected::after, .pc-searchHeader, .pc-channelSeparator .pc-channelName, .pc-searchResultMessage {
   background-color: var(--bg-primary) !important;
 }
 
@@ -9,24 +9,22 @@
   background-color: var(--bg-secondary) !important;
 }
 
-.pc-nonText, .pc-plusIcon, .pc-searchLearnMore .pc-anchorUnderlineOnHover [name*='LearnMore'] g {
+.pc-totalResults, .pc-nonText, .pc-plusIcon, .pc-searchLearnMore .pc-anchorUnderlineOnHover [name*='LearnMore'] g {
   color: white !important;
 }
 
-.pc-option, .pc-option:after, .pc-searchOption {
+.pc-option, .pc-option:after, .pc-searchOption, .pc-searchResult:before, .pc-searchResult:after,
+.search-results-wrap .search-result:before, .search-results-wrap .search-result:after {
   background-image: none !important;
 }
 
-.search-results-wrap .search-header .tab, .search-results-wrap .search-header .total-results {
+.pc-totalResults, .pc-searchHeader .pc-tab, .search-results-wrap .search-header .tab, .search-results-wrap .search-header .total-results {
   opacity: 1 !important;
 }
 
-.search-results-wrap .search-result .search-result-message.hit, .search-results-wrap .channel-separator:before {
+.search-results-wrap .search-result .search-result-message.hit, .search-results-wrap .channel-separator:before,
+.pc-channelSeparator:before, .pc-searchResultMessage, .pc-searchResult, .pc-searchResult.pc-expanded {
   border: none !important;
-}
-
-.search-results-wrap .search-result:before, .search-results-wrap .search-result:after {
-  background-image: none !important;
 }
 
 .search-bar-icon .icon.visible {
