@@ -32,6 +32,11 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   border-bottom-color: white !important;
 }
 
+.pc-userPopout .pc-header .pc-flex .pc-headerText .pc-headerNameWrapper .pc-headerName,
+.pc-userPopout .pc-header .pc-flex .pc-headerText .pc-headerTagNoNickname .pc-headerTagUsernameNoNickname {
+  text-transform: none !important;
+}
+
 .pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
   background-color: white !important;
 }
