@@ -1,0 +1,43 @@
+.pc-userInfoViewingButton, .pc-inputDefault, .pc-input:focus, .lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--bg-primary) !important;
+}
+
+.pc-userInfoEditing .pc-flex .pc-flex,
+.pc-userInfoEditing .pc-flex .pc-flexChild div .pc-title,
+.pc-userInfoEditing .pc-flex .pc-flexChild .pc-marginBottom20 .pc-title, .pc-userInfoEditing > .pc-flex,
+.pc-cardPrimary, .pc-cardPrimary .pc-flex, .pc-faded,
+.pc-cardPrimaryEditable, .pc-viewBody, .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
+}
+
+.pc-sidebar .side-8zPYf6 .pc-itemSelected {
+  background-color: white !important;
+  color: var(--bg-secondary) !important;
+}
+
+.pc-header, .pc-faded, .pc-viewBody, .pc-weightSemiBold, .pc-description {
+  color: white !important;
+}
+
+.powercord-pc-icon::before .pc-viewBody {
+  opacity: 1 !important;
+}
+
+.pc-userInfoViewingButton:hover {
+  opacity: .8 !important;
+}
+
+.pc-title, .pc-header {
+  text-transform: capitalize !important;
+}
+
+.pc-sidebar .side-8zPYf6 .pc-separator {
+  visibility: visible !important;
+  width: 173px !important;
+}
+
+.pc-userInfoEditing .pc-divider {
+  visibility: hidden;
+}

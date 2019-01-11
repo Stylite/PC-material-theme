@@ -22,11 +22,17 @@
   background-color: var(--bg-secondary) !important;
 }
 
+div [class*='topSection'] .pc-tabBarContainer .pc-tabBar .pc-itemSelected,
+div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover, .name-2WpE7M, .pc-nameWrapper .pc-name,
 .pc-listName, .pc-listDiscriminator, .pc-actionButton, .pc-buttonInvertedPurple {
   color: white !important;
 }
 
-.pc-wrapper .pc-unread, .pc-barInner {
+div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
+  border-bottom-color: white !important;
+}
+
+.pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
   background-color: white !important;
 }
 
