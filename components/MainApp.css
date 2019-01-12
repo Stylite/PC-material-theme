@@ -37,6 +37,11 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   text-transform: none !important;
 }
 
+.pc-activity {
+  opacity: 1 !important;
+  color: white !important;
+}
+
 .pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
   background-color: white !important;
 }
