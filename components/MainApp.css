@@ -114,3 +114,20 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
 .pc-scroller::-webkit-scrollbar {
   width: 5px !important;
 }
+
+.pc-edited {
+  font-size: 0;
+  width: 13px !important;
+  height: 13px !important;
+  display: inline-block;
+  background-image: url('http://svgur.com/i/3YH.svg');
+  background-size: 100%;
+  opacity: .3;
+  line-height: 23px;
+  transition: opacity 0.2s;
+  margin-left: 2.5px;
+}
+
+.pc-edited:hover {
+  opacity: 1;
+}
