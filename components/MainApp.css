@@ -37,7 +37,7 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   text-transform: none !important;
 }
 
-.pc-activity {
+.pc-activity, .pc-iconCollapsed, .pc-iconDefault, .wrapper-2NJDcI, .nameCollapsed-34uFWo {
   opacity: 1 !important;
   color: white !important;
 }
@@ -130,4 +130,9 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
 
 .pc-edited:hover {
   opacity: 1;
+}
+
+.pc-moreUsers {
+  background-color: var(--bg-secondary);
+  color: white;
 }

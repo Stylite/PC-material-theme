@@ -1,11 +1,12 @@
 .search-results-wrap .search-result .search-result-message.hit, .search-results-wrap .channel-separator .channel-name,
 .search-results-wrap .search-header, .pc-searchFilter, .pc-searchAnswer, .pc-resultsGroup .pc-searchOption.pc-selected
-.pc-option.pc-searchOption.pc-selected::after, .pc-searchHeader, .pc-channelSeparator .pc-channelName, .pc-searchResultMessage {
+.pc-option.pc-searchOption.pc-selected::after, .pc-searchHeader, .pc-channelSeparator .pc-channelName, .pc-searchResultMessage,
+.pc-dim span {
   background-color: var(--bg-primary) !important;
 }
 
 .pc-resultsGroup .pc-option, .pc-option.pc-searchOption::after, .pc-resultsGroup, .pc-resultsGroup .pc-header,
-.pc-resultsGroup .pc-searchOption {
+.pc-resultsGroup .pc-searchOption, .pc-focused, .pc-queryContainer {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -31,7 +32,7 @@
   opacity: 1 !important;
 }
 
-.pc-filter {
+.pc-filter, .pc-dim span {
   color: white !important;
   font-weight: 500 !important;
 }
