@@ -1,0 +1,8 @@
+.pc-authBox, .container-16j22k, .wrapper-3Q5DdO {
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-inputDefault, .pc-input:focus {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
+}

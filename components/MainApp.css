@@ -132,6 +132,10 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   opacity: 1;
 }
 
+.pc-menu .pc-separator {
+  border: none !important;
+}
+
 .pc-moreUsers {
   background-color: var(--bg-secondary);
   color: white;

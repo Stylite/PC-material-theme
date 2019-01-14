@@ -4,7 +4,7 @@
   border-radius: 0;
 }
 
-.pc-messagesPopoutWrap {
+.pc-messagesPopoutWrap, .pc-firefoxFixScrollFlex .pc-messagesPopout {
   border-color: var(--bg-secondary) !important;
   background-color: var(--bg-secondary) !important;
 }
