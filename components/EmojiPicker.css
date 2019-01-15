@@ -1,0 +1,22 @@
+.pc-searchBarLight, .pc-diversitySelector .pc-item, .pc-emojiPicker .pc-categories .pc-item {
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-newMessagesBar, .pc-newMessagesBar:hover, .pc-searchBarLight .pc-searchBarInner,
+.emojiItem-109bjA.selected-39BZ4S {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
+}
+
+.pc-newMessagesBar button, .pc-searchBarLight input {
+  color: white !important;
+}
+
+.pc-emojiPicker .pc-categories .pc-item, .pc-categories {
+  border: none !important;
+}
+
+.pc-emojiPicker {
+  border: 4px solid var(--bg-secondary) !important;
+}
+
