@@ -7,7 +7,8 @@
   color: white !important;
 }
 
-.pc-botTagInvert {
+.pc-botTagInvert,
+.pc-member:hover .pc-content .pc-memberInner .pc-nameTag .pc-botTag {
   background-color: white !important;
   color: var(--bg-secondary) !important;
 }
