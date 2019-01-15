@@ -1,0 +1,13 @@
+[class*='botTag'] {
+  font-weight: 600 !important;
+}
+
+.pc-botTagRegular {
+  background-color: var(--bg-secondary) !important;
+  color: white !important;
+}
+
+.pc-botTagInvert {
+  background-color: white !important;
+  color: var(--bg-secondary) !important;
+}

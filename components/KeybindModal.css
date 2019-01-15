@@ -1,0 +1,15 @@
+.pc-keybindDescription {
+  color: white !important;
+}
+
+.pc-keyboardShortcutsModal {
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-keybindShortcut span {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-keybindShortcut, .pc-modalSubtitle, .modalSubtitle-1Pj5nv {
+  border: none !important;
+}

@@ -1,0 +1,3 @@
+.pc-selectorSelected, .pc-selectorSelected .pc-flex {
+  background-color: var(--bg-secondary) !important;
+}
