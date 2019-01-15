@@ -20,7 +20,8 @@
 }
 
 .pc-guildSeparator:after, .pc-badge.pc-fixClipping, .pc-members .pc-member .pc-content:hover, .tooltip-black,
-.pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper, .pc-actionButton, .pc-buttonInvertedPurple {
+.pc-mention .pc-active, .pc-active, .pc-iconSpacing .pc-wrapper, .pc-actionButton, .pc-buttonInvertedPurple,
+.pc-contextMenu, .pc-contextMenu .pc-scroller   {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -109,6 +110,13 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
 .pc-scrollerWrap .scroller::-webkit-scrollbar {
   width: 5px;
 }
+
+.pc-jumpToPresentBar, .pc-jumpToPresentBar button:last-child {
+  color: white !important;
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
+}
+
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
   visibility: hidden !important;
