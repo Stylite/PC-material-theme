@@ -117,6 +117,9 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   border-color: var(--bg-secondary) !important;
 }
 
+header {
+  opacity: 1 !important;
+}
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
   visibility: hidden !important;
@@ -132,7 +135,7 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   width: 13px !important;
   height: 13px !important;
   display: inline-block;
-  background-image: url('http://svgur.com/i/3YH.svg');
+  background-image: url('https://svgur.com/i/3YH.svg');
   background-size: 100%;
   opacity: .3;
   line-height: 23px;
