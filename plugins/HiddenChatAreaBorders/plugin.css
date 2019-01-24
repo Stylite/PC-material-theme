@@ -5,3 +5,8 @@
 .pc-channelTextArea {
   border: none !important;
 }
+
+.pc-attachButtonDivider {
+  visibility: hidden !important;
+}
+
