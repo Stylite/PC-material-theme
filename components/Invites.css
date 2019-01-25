@@ -1,3 +1,16 @@
-.pc-wrapper {
-  background: var(--bg-primary) !important;
+.pc-guildDetail .pc-flex {
+  color: white !important;
+}
+
+.lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+  background-color: var(--bg-primary) !important;
+  border-color: var(--bg-primary) !important;
+}
+
+.pc-message .pc-container .wrapper-35wsBm,
+.pc-message .pc-container .wrapper-35wsBm .pc-title,
+.pc-message .pc-container .content-2U5lSY,
+.pc-message .pc-container .content-2U5lSY .pc-flex {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
 }

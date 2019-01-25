@@ -111,6 +111,10 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   width: 5px;
 }
 
+.pc-wrapper {
+  background: var(--bg-primary) !important;
+}
+
 .pc-jumpToPresentBar, .pc-jumpToPresentBar button:last-child {
   color: white !important;
   background-color: var(--bg-secondary) !important;
