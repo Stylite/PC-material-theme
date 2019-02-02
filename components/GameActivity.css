@@ -1,0 +1,3 @@
+.pc-notDetected, .pc-gameNameLastPlayed {
+  background-color: var(--bg-secondary) !important;
+}
