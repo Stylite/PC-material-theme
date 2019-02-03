@@ -1,0 +1,11 @@
+.pc-radioGroup .pc-flex .pc-info .pc-title {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-checkbox {
+  border-color: var(--bg-primary) !important;
+}
+
+svg[name*="Checkmark"] g polyline[stroke="#7289da"] {
+  stroke: var(--bg-secondary) !important;
+}
