@@ -16,3 +16,7 @@
 .nameHovered-1gxhWH, .pc-nameDefault, .pc-nameHovered, .pc-membersGroup, .pc-nameCollapsed, .pc-nameHoveredCollapsed {
   text-transform: none !important;
 }
+
+.pc-nameMuted {
+  text-transform: capitalize !important;
+}
