@@ -3,6 +3,6 @@
 }
 
 .pc-backdrop {
-  opacity: 1 !important;
+  opacity: .85 !important;
   background-color: var(--bg-primary) !important;
 }

@@ -1,0 +1,3 @@
+.pc-userInfoSection, .pc-connectedAccount {
+  border-color: var(--bg-primary) !important;
+}
