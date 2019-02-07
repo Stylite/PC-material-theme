@@ -1,0 +1,8 @@
+.pc-titleBar {
+  z-index: 999 !important;
+}
+
+.pc-backdrop {
+  opacity: 1 !important;
+  background-color: var(--bg-primary) !important;
+}
