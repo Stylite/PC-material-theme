@@ -1,0 +1,28 @@
+/* Thanks to Nox for the majority of the code in this file. https://github.com/rauenzi/Nox  */
+
+.pc-homeIcon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjcuMDIgMjcuMDIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI3LjAyIDI3LjAyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsiIGQ9Ik0zLjY3NCwyNC44NzZjMCwwLTAuMDI0LDAuNjA0LDAuNTY2LDAuNjA0YzAuNzM0LDAsNi44MTEtMC4wMDgsNi44MTEtMC4wMDhsMC4wMS01LjU4MSAgIGMwLDAtMC4wOTYtMC45MiwwLjc5Ny0wLjkyaDIuODI2YzEuMDU2LDAsMC45OTEsMC45MiwwLjk5MSwwLjkybC0wLjAxMiw1LjU2M2MwLDAsNS43NjIsMCw2LjY2NywwICAgYzAuNzQ5LDAsMC43MTUtMC43NTIsMC43MTUtMC43NTJWMTQuNDEzbC05LjM5Ni04LjM1OGwtOS45NzUsOC4zNThDMy42NzQsMTQuNDEzLDMuNjc0LDI0Ljg3NiwzLjY3NCwyNC44NzZ6Ij48L3BhdGg+Cgk8cGF0aCBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyIgZD0iTTAsMTMuNjM1YzAsMCwwLjg0NywxLjU2MSwyLjY5NCwwbDExLjAzOC05LjMzOGwxMC4zNDksOS4yOGMyLjEzOCwxLjU0MiwyLjkzOSwwLDIuOTM5LDAgICBMMTMuNzMyLDEuNTRMMCwxMy42MzV6Ij48L3BhdGg+Cgk8cG9seWdvbiBzdHlsZT0iZmlsbDogcmdiKDI1NSwgMjU1LCAyNTUpOyIgcG9pbnRzPSIyMy44Myw0LjI3NSAyMS4xNjgsNC4yNzUgMjEuMTc5LDcuNTAzIDIzLjgzLDkuNzUyICAiPjwvcG9seWdvbj4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4=') !important;
+  background-color: var(--bg-secondary);
+  background-size: 85%!important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 50px;
+  padding: 5px;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.pc-guildInner[style*='rgb(114, 137, 218);'] {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-homeIcon {
+  fill: none !important;
+}
+
+.pc-homeIcon g {
+  visibility: hidden !important;
+}
