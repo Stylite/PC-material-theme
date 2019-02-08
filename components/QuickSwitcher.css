@@ -1,0 +1,13 @@
+.pc-tipsWithResults {
+  color: white !important;
+  border-color: var(--bg-primary) !important;
+}
+
+.pc-quickswitcher {
+  color: white !important;
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-input {
+  background-color: var(--bg-secondary) !important;
+}
