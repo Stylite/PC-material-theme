@@ -1,0 +1,13 @@
+.powercord-toast {
+  background-color: var(--bg-secondary) !important;
+}
+
+.powercord-toast .body .buttons .button {
+  background-color: var(--bg-primary) !important
+}
+
+.powercord-toast .body .buttons .button:hover {
+  color: var(--bg-primary) !important;
+  background-color: #FFF !important;
+  cursor: pointer;
+}
