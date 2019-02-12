@@ -1,4 +1,4 @@
-Radial status indicators
+Radial Status Indicators
 --
 This plugin changes the users status to be a colored ring around their profile picture
 
