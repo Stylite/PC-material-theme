@@ -1,0 +1,20 @@
+.pc-messagesPopoutWrap .pc-guildName,
+.pc-messagesPopoutWrap .pc-header .pc-headerTabBarWrapper .pc-tabBar .pc-itemSelected {
+  color: white !important;
+}
+
+.pc-messagesPopoutWrap .pc-guildName::before {
+  content: '- ' !important;
+  color: white !important;
+}
+
+.pc-messagesPopoutWrap .pc-channelName {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-messagesPopoutWrap .pc-header .pc-headerTabBarWrapper .pc-tabBar .pc-item:hover {
+  border-bottom: 2px white solid !important;
+  background-color: var(--bg-secondary) !important;
+  color: white !important;
+}
+
