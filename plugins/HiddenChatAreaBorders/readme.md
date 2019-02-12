@@ -4,4 +4,4 @@ This plugin removes borders from the chat area. This includes messages and the c
 
 You can import this plugin by adding the following line to your theme file:
 
-`@import 'plugins/HiddenChatAreaBorders/plugin';`
+`@import 'PC-material-theme/plugins/HiddenChatAreaBorders/plugin';`

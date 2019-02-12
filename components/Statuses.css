@@ -1,19 +1,19 @@
 .theme-dark .status-2s6iDp {
-  border: 2px solid var(--bg-primary) !important;
+  border: 2px solid var(--bg-primary);
 }
 
 [class*='status'].pc-online {
-  box-shadow: inset 0 0 0 2px #43B581 !important;
+  box-shadow: inset 0 0 0 2px #43B581;
 }
 
 [class*='status'].pc-idle {
-  box-shadow: inset 0 0 0 2px #FAA61A !important;
+  box-shadow: inset 0 0 0 2px #FAA61A;
 }
 
 [class*='status'].pc-dnd {
-  box-shadow: inset 0 0 0 2px #F04747 !important;
+  box-shadow: inset 0 0 0 2px #F04747;
 }
 
 [class*='status'].pc-offline {
-  box-shadow: inset 0 0 0 2px #747F8D !important;
+  box-shadow: inset 0 0 0 2px #747F8D ;
 }
