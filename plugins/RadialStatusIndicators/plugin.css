@@ -28,6 +28,7 @@
     border: var(--rs-width) solid #636b75 !important;
     margin: 0 !important;
     pointer-events: none;
+    box-shadow: none !important;
 }
 
 [class*="user-info"] [class*="status"] {
