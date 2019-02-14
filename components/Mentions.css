@@ -1,8 +1,8 @@
-.pc-isMentioned, .pc-isMentionedCozy:after {
+.pc-isMentioned, .pc-isMentioned:after {
   background: rgba(255, 255, 255, .1) !important;
   border-radius: 0 !important;
 }
 
-.pc-isMentionedCozy:after {
+.pc-isMentioned:after {
   border-color: white !important;
 }
