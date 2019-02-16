@@ -121,7 +121,7 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   border-color: var(--bg-secondary) !important;
 }
 
-header {
+.pc-linkButtonIcon, header {
   opacity: 1 !important;
 }
 
