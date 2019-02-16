@@ -1,0 +1,20 @@
+.pc-title {
+  background-color: transparent;
+}
+
+.pc-searchBox {
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-chat form {
+  background-color: var(--bg-primary) !important;
+}
+
+.pc-guildCard .pc-guildIcon {
+  border-radius: 50% !important;
+}
+
+.pc-verifiedIcon g path[fill='#7289da'] {
+  fill: var(--bg-secondary) !important;
+}
+
