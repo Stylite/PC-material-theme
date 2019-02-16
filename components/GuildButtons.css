@@ -1,0 +1,15 @@
+.pc-guildsAdd, .pc-guildsAdd:hover {
+  border-style: solid !important;
+}
+
+.pc-guildsAdd {
+  color: white !important;
+  background: var(--bg-secondary) !important;
+  border-color: var(--bg-secondary) !important;
+}
+
+.pc-guildsAdd:hover {
+  color: var(--bg-secondary) !important;
+  background: white!important;
+  border-color: white !important;
+}
