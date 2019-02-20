@@ -5,4 +5,5 @@
 .pc-backdrop {
   opacity: .85 !important;
   background-color: var(--bg-primary) !important;
+  backdrop-filter: blur(5px);
 }
