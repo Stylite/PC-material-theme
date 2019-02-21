@@ -1,3 +1,3 @@
-*:not([class*="avatar"], .pc-avatarSpeaking) {
+*:not([class*="avatar"]):not(.pc-avatarSpeaking) {
   box-shadow: none !important;
 }
