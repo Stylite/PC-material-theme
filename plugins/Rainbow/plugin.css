@@ -1,0 +1,15 @@
+.pc-isMentioned, .pc-isMentioned .mention, .pc-isMentioned:after {
+    background: rgba(0, 229, 255, .1) !important;
+    color: #00e5ff !important;
+    border-color: #00e5ff !important;
+    animation: rainbow 3s infinite linear !important;
+}
+
+.pc-avatarSpeaking, .pc-speaking {
+    animation: rainbow 3s infinite linear !important;
+}
+
+@keyframes rainbow {
+    from {-webkit-filter: hue-rotate(0deg);}
+    to {-webkit-filter: hue-rotate(360deg);}
+}
