@@ -7,7 +7,8 @@
 }
 
 .pc-friendsRow:hover .pc-friendsColumn .pc-statusText .pc-flex, .pc-friendsRow:hover,
-.tabBar-1E2ExX .primary-3j8BhM, .pc-tabBar .pc-item  {
+.tabBar-1E2ExX .primary-3j8BhM, .pc-tabBar .pc-item:not(.pc-itemSelected):not(.pc-item:hover),
+.pc-primary[background-color*='7289da'], .tabBar-1E2ExX .primary-3j8BhM  {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -16,11 +17,11 @@
   width: 2px !important;
 }
 
-.pc-tabBar .pc-itemSelected, .pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover {
+.pc-itemSelected, .pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover {
   color: var(--bg-secondary) !important;
 }
 
-.pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover {
+.pc-itemSelected, .pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover, .pc-item:hover {
   background-color: white !important;
 }
 
@@ -38,4 +39,8 @@
 
 .friendActivityIconForeground-3X031q {
   fill: white !important;
+}
+
+.tabBar-1E2ExX .primary-3j8BhM {
+  background-color: var(--bg-secondary)!important;
 }
