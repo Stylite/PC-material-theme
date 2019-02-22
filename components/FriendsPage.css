@@ -45,3 +45,7 @@
 .tabBar-1E2ExX .primary-3j8BhM {
   background-color: var(--bg-secondary)!important;
 }
+
+[class*='pc-friendsAction'], [class*='pc-friendsAction']:hover {
+  background-color: var(--bg-primary)!important;
+}
