@@ -6,7 +6,8 @@
   background-color: var(--bg-primary) !important;
 }
 
-.pc-friendsRow:hover .pc-friendsColumn .pc-statusText .pc-flex, .pc-friendsRow:hover {
+.pc-friendsRow:hover .pc-friendsColumn .pc-statusText .pc-flex, .pc-friendsRow:hover,
+.tabBar-1E2ExX .primary-3j8BhM, .pc-tabBar .pc-item  {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -15,11 +16,11 @@
   width: 2px !important;
 }
 
-.pc-tabBar .pc-itemSelected, .pc-itemDefault:hover {
+.pc-tabBar .pc-itemSelected, .pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover {
   color: var(--bg-secondary) !important;
 }
 
-.pc-itemDefault:hover {
+.pc-itemDefault:hover, .tabBar-1E2ExX .primary-3j8BhM:hover {
   background-color: white !important;
 }
 
