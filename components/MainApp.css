@@ -167,3 +167,7 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
 .checkbox-3kaeSU .checkboxInner-3yjcPe span {
   border-color: var(--bg-primary) !important;
 }
+
+.pc-contextMenu .pc-item:hover {
+  background-color: var(--bg-secondary) !important;
+}
