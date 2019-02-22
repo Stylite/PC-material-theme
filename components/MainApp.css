@@ -170,4 +170,5 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
 
 .pc-contextMenu .pc-item:hover {
   background-color: var(--bg-secondary) !important;
+  cursor: pointer !important;
 }
