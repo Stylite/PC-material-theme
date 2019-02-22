@@ -41,6 +41,7 @@
   fill: white !important;
 }
 
+.pc-friendsRow:hover, .pc-friendsRow:hover .pc-statusText .pc-flex,
 .tabBar-1E2ExX .primary-3j8BhM {
   background-color: var(--bg-secondary)!important;
 }
