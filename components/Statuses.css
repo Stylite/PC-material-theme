@@ -1,5 +1,5 @@
-.theme-dark .status-2s6iDp {
-  border: 2px solid var(--bg-primary);
+.status-2s6iDp {
+  border-color: transparent !important;
 }
 
 [class*='status'].pc-online {
