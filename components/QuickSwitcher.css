@@ -11,3 +11,7 @@
 .pc-input {
   background-color: var(--bg-secondary) !important;
 }
+
+.pc-resultFocused > .pc-content {
+  background-color: var(--bg-secondary) !important;
+}

@@ -1,3 +1,16 @@
 .pc-userInfoSection, .pc-connectedAccount {
   border-color: var(--bg-primary) !important;
 }
+
+.pc-tooltip.pc-brand {
+  color: white !important;
+  background-color: var(--bg-secondary) !important;
+}
+
+.pc-tooltip.pc-brand:after {
+  border-top-color: var(--bg-secondary) !important;
+}
+
+.pc-listRow:hover {
+  background: var(--bg-secondary) !important;
+}

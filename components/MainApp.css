@@ -125,6 +125,10 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   opacity: 1 !important;
 }
 
+.pc-verifiedIcon g path[fill="#36393f"] {
+  fill: var(--bg-secondary) !important;
+}
+
 .divider-3573oO, .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
   visibility: hidden !important;
 }
