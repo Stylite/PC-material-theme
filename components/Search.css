@@ -6,7 +6,7 @@
 }
 
 .pc-resultsGroup .pc-option, .pc-option.pc-searchOption::after, .pc-resultsGroup, .pc-resultsGroup .pc-header,
-.pc-resultsGroup .pc-searchOption, .pc-focused, .pc-queryContainer {
+.pc-resultsGroup .pc-searchOption, .pc-focused, .pc-queryContainer, .pc-searchBar {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -28,7 +28,7 @@
   border: none !important;
 }
 
-.search-bar-icon .icon.visible {
+.search-bar-icon .icon.visible, .searchBarIcon-1J6sKG .icon-3cZ1F_.visible-3V0mGj {
   opacity: 1 !important;
 }
 
