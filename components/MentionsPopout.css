@@ -8,7 +8,7 @@
   color: white !important;
 }
 
-.pc-messagesPopoutWrap .pc-channelName {
+.pc-messagesPopoutWrap .pc-itemSelected, .pc-messagesPopoutWrap .pc-channelName {
   background-color: var(--bg-secondary) !important;
 }
 
@@ -17,4 +17,3 @@
   background-color: var(--bg-secondary) !important;
   color: white !important;
 }
-
