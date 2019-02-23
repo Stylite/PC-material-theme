@@ -172,3 +172,8 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   background-color: var(--bg-secondary) !important;
   cursor: pointer !important;
 }
+
+.pc-role .pc-flex {
+  background-color: transparent !important;
+  margin-bottom: 2px !important;
+}
