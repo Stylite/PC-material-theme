@@ -45,7 +45,7 @@ div [class*='topSection'] .pc-tabBarContainer .pc-tabBar [class*='item']:hover {
   color: white !important;
 }
 
-.pc-unread:before, .pc-wrapper .pc-unread, .pc-barInner {
+.pc-unread:before, .pc-barInner {
   background-color: white !important;
 }
 
